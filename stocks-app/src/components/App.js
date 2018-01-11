@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Grid, Nav, NavItem } from 'react-bootstrap';
+import { Nav, NavItem } from 'react-bootstrap';
 import { fetchAllStocks } from '../actions/Stocks';
-import Chart from './Chart';
 import '../App.css';
 
 class App extends Component {
