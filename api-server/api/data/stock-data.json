@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Acme Corp.",
+        "symbol": "ACME",
+        "description": "ACME Corporation Stock",
+        "prices": [
+            {
+                "dateTime": "2018-01-11T07:30:32.763",
+                "volume": 230,
+                "price": 72.33
+            },
+            {
+                "dateTime": "2018-01-11T07:29:32.763",
+                "volume": 300,
+                "price": 73.45
+            },
+            {
+                "dateTime": "2018-01-11T07:28:32.763",
+                "volume": 3000,
+                "price": 63.45
+            },
+            {
+                "dateTime": "2018-01-11T07:27:32.763",
+                "volume": 500,
+                "price": 60.64
+            },
+            {
+                "dateTime": "2018-01-11T07:26:32.763",
+                "volume": 253,
+                "price": 58.75
+            }
+        ]
+    },
+    {
+        "name": "Apple Inc.",
+        "symbol": "AAPL",
+        "description": "Apple Incorporated Stock",
+        "prices": [
+            {
+                "dateTime": "2018-01-11T07:30:32.763",
+                "volume": 5430,
+                "price": 27.33
+            },
+            {
+                "dateTime": "2018-01-11T07:28:32.763",
+                "volume": 1300,
+                "price": 85.89
+            },
+            {
+                "dateTime": "2018-01-11T07:28:32.763",
+                "volume": 4540,
+                "price": 45.45
+            },
+            {
+                "dateTime": "2018-01-11T07:27:32.763",
+                "volume": 500,
+                "price": 40.64
+            },
+            {
+                "dateTime": "2018-01-11T07:26:32.763",
+                "volume": 253,
+                "price": 48.65
+            }
+        ]
+    }
+]
