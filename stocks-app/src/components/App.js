@@ -21,6 +21,9 @@ class App extends Component {
             <NavItem href="/">Home</NavItem>
           </Nav>
         </div>
+        <div>
+          {stocks && stocks.map((stock) => <div key={stock.symbol}>{stock.name}, {stock.symbol}, {stock.prices.map((p) => <div key={p.dateTime}>DateTime: {p.dateTime}, Volume: {p.volume}, Price: {p.price} </div>)}</div>)}
+        </div>
       </div>
     );
   }
@@ -28,7 +31,7 @@ class App extends Component {
 
 function mapStateToProps({ stocks }) {
   return {
-    stocks
+    stocks: stocks.stocks
   };
 }
 

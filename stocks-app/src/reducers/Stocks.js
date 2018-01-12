@@ -6,12 +6,12 @@ function stocks(state = { stocks: [] }, action) {
   case GET_ALL_STOCKS:
     return {
       ...state,
-      stocks: stocks
+      stocks: action.stocks
     };
 		case GET_STOCK:
 			return {
 				...state,
-				stocks: stocks
+				stocks: [action.stocks]
 			};
 		default:
 			return state;
