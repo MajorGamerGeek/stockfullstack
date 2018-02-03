@@ -1,0 +1,15 @@
+version: "2"
+services:
+  node:
+    image: "node:8"
+    user: "node"
+    ports:
+      - "3001:3001"
+    working_dir: /home/node/api
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/api
+    expose:
+      - "3001"
+    command: "npm start"
